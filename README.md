@@ -1,7 +1,9 @@
-#bubbles.js
-一个想上冒泡特效的js插件，依赖于jQuery。
+bubbles.js
+==========
+一个向上冒泡特效的js插件，依赖于jQuery。
 
-##安装
+安装
+-----
 1. 把bubbles.js 及几个png图像解压到项目目录
 2. 在html中引入bubbles.js(及jquery)
 3. 添加 .pop_flag 样式： 
@@ -32,7 +34,8 @@
     </script>
 
 
-##配置
+配置
+----
 可以根据自己需要设置冒泡的距离、速度、弹出的泡泡的样式，修改 bubbles.js “//config” 部分的内容
 
     //config
@@ -40,7 +43,8 @@
     var pop_duration = 1000;//冒泡持续时间，单位ms 越大飘得越慢 
     var pop_flags = ["ico_flag.png",...]; //可以增减替换自己的泡泡素材数量最少为1个
 
-##copyright
+copyright
+----
 保留插件头部注释，可自由转载、使用、修改。
 
 have fun :-)
