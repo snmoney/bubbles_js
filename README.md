@@ -8,6 +8,7 @@ bubbles.js
 2. 在html中引入bubbles.js(及jquery)
 3. 添加 .pop_flag 样式： 
 .pop_flag {position: absolute; z-index: 999; pointer-events: none; display: none; width:32px; height:32px;}
+4. 在点击的对象(按钮)上绑定点击事件,调用 bubbles(obj)
 
 得到最简单的一个样子像这样（代码）：
 
